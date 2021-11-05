@@ -1,0 +1,1 @@
+ALTER TABLE lottery.report_stat_user_day ADD COLUMN balance INT(11) NOT NULL DEFAULT '0' AFTER day;
